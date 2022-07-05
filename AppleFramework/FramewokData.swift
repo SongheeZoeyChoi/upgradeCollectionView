@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AppleFramework {
+struct AppleFramework: Hashable { // Hashable 구분 가능한..빠르게 찾을 수 있게 함. 
     let name: String
     let imageName: String
     let urlString: String
